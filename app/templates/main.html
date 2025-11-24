@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{translate('title')}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/theme.css') }}">
+  </head>
+  <body>
+    <h1>{{translate('title')}}</h1>
+    <hr/>
+    <h3>{{translate('subTitle')}}</h3>
+    <form name="form-control" class="main-content" action="{{ url_for('predict')}}" method="post">
+      <label for="goal_usd">{{translate("goal_usd")}}*</label>
+        <input required id="goal_usd" name="goal_usd" type="number"/>
+      <label for="country_US">{{translate("country_US")}}</label>
+        <select id="country_US" name="country_US">
+          <option value="1">{{translate("yes")}}</option>
+          <option value="0">{{translate("no")}}</option>
+        </select>
+      <label for="cam_duration">{{translate("cam_duration")}}*</label>
+          <input required id="cam_duration" name="cam_duration" type="number"/>
+      <label for="prep_duration">{{translate("prep_duration")}}*</label>
+          <input required id="prep_duration" name="prep_duration" type="number"/>
+      <label for="category_input">{{translate("category_input")}}</label>
+        <select id="category_input" name="category_input">
+          {% for category in categories %}
+          <option value="{{category}}">{{category}}</option> 
+          {% endfor %}
+        </select>
+      <button type="submit" class="btn btn-primary btn-block btn-large" onclick="">{{translate("submit")}}</button>
+    </form>
+  </body>
+</html>

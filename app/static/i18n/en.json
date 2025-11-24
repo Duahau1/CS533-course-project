@@ -1,0 +1,15 @@
+{
+  "title": "KickStarter Prediction",
+  "subTitle": "Tell me about your campaign:",
+  "goal_usd": "What is your goal (in USD?)",
+  "country_US": "Is it based in the US?",
+  "cam_duration": "What is your campaign duration (in days)?",
+  "prep_duration": "What is your preparation duration (in days)?",
+  "category_input": "Choose your category:",
+  "submit": "Submit",
+  "yes": "Yes",
+  "no": "No",
+  "successProject": "This project will be a successful project",
+  "failureProject": "This project will possibly be a failed project",
+  "resultTitle": "Prediction Result"
+}
