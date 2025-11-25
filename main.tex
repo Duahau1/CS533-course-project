@@ -138,22 +138,20 @@ SS_{hybrid} &= 368700 - \frac{5296^2}{100} = 88223.84 \\[1em]
 SS_{in-person} &= 379702 - \frac{5354^2}{100} = 93048.84 \\[1em]
 SS_{remote} &= 332937 - \frac{5011^2}{100} = 81835.79
 \end{align*}
-\item After the computation, we will fill out the values in the below table so we can refer to it later
+\item After the training, we will fill out the values in the below table so we can refer to it later
 \begin{table}[h]
 \small  % adjust the size of the table
 \centering
-\begin{tabular}{p{1cm}cccc}
+\begin{tabular}{p{1cm}cccccc}
 \toprule
-{\bf} & {\bf Hybrid} & {\bf In-person} & {\bf Remote} & {\bf Totals} \\
+{\bf Model type} & {\bf accuracy} & {\bf precision} & {\bf recall} & {\bf f1} & {\bf roc} \\
 \midrule
- Sum of X & 5296  & 5354 & 5011  & 15661\\
- Sum of square of X & 368700 & 379702  & 332937 & 1081339 \\
- n & 100  & 100 & 100 & 300\\
- Mean & 52.96  & 53.54  & 50.11\\
- SS mean & 88223.84  & 93048.84 & 81835.79 \\
+ Logistic & 0.690141  & 0.701068 & 0.866327  & 0.774985 & 0.712753\\
+ Decision Tree & 0.643219 & 0.717607  & 0.693758 & 0.705481 & 0.631295 \\
+ Random Forest & 0.695077  & 0.734781 & 0.790148 & 0.761459 & 0.730677\\
 \bottomrule
 \end{tabular}
-\caption{Summary of student's performance by different class type}
+\caption{Summary of chosen model's performance before tuning}
 \label{tab:anova_summary}
 \end{table}
 \begin{align*}
