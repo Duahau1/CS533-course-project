@@ -9,7 +9,6 @@
   </head>
   <body>
     <h1>{{translate('title')}}</h1>
-    <hr/>
     <h3>{{translate('subTitle')}}</h3>
     <form name="form-control" class="main-content" action="{{ url_for('predict')}}" method="post">
       <label for="goal_usd">{{translate("goal_usd")}}*</label>
@@ -29,7 +28,7 @@
           <option value="{{category}}">{{category}}</option> 
           {% endfor %}
         </select>
-      <button type="submit" class="btn btn-primary btn-block btn-large" onclick="">{{translate("submit")}}</button>
+      <button type="submit" onclick="">{{translate("submit")}}</button>
     </form>
   </body>
 </html>

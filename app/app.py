@@ -11,7 +11,7 @@ _translate = TranslateService.translate()
 
 @app.route('/')
 def home():
-    return render_template("main.html", categories= CATEGORIES, translate=_translate)
+    return render_template("main.html", categories=CATEGORIES, translate=_translate)
 
 @app.route('/predict' ,methods=['POST'])
 def predict():
@@ -23,7 +23,8 @@ def predict():
     input_list = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     if category_value in CATEGORIES:
         input_list[CATEGORIES.index(category_value)] = 1
-    category_input = pd.DataFrame([input_list],columns=['Comics', 'Crafts','Dance', 'Design', 'Fashion', 'Film_Video', 'Food', 'Games', 'Journalism','Music', 'Photography', 'Publishing', 'Technology', 'Theater'],dtype=float)
+    
+    category_input = pd.DataFrame([input_list],columns=CATEGORIES,dtype=float)
     input_variables = pd.DataFrame([[campaign_goal_USD, campaign_location_US, campaign_timeline, prep_timeline]], columns=['campaign_goal_USD', 'campaign_location_US', 'campaign_timeline','prep_timeline'], dtype=float)
     normalized_input = pd.concat([input_variables,category_input],axis=1)
     
