@@ -1,4 +1,4 @@
-# KickStarter
+# Analyze Funding Trends in Kickstarter Projects
 
 This folder contains the core components of the application. Below is an overview of the files and their purposes:
 
