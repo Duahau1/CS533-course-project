@@ -15,16 +15,16 @@ def home():
 
 @app.route('/predict' ,methods=['POST'])
 def predict():
-    goal_usd = request.form['goal_usd']
-    country_US = request.form['country_US']
-    cam_duration = request.form['cam_duration']
-    prep_duration = request.form['prep_duration']
+    campaign_goal_USD = request.form['goal_usd']
+    campaign_location_US = request.form['country_US']
+    campaign_timeline = request.form['cam_duration']
+    prep_timeline = request.form['prep_duration']
     category_value = request.form["category_input"]
     input_list = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     if category_value in CATEGORIES:
         input_list[CATEGORIES.index(category_value)] = 1
     category_input = pd.DataFrame([input_list],columns=['Comics', 'Crafts','Dance', 'Design', 'Fashion', 'Film_Video', 'Food', 'Games', 'Journalism','Music', 'Photography', 'Publishing', 'Technology', 'Theater'],dtype=float)
-    input_variables = pd.DataFrame([[goal_usd, country_US, cam_duration, prep_duration]], columns=['goal_usd', 'country_US', 'cam_duration','prep_duration'], dtype=float)
+    input_variables = pd.DataFrame([[campaign_goal_USD, campaign_location_US, campaign_timeline, prep_timeline]], columns=['campaign_goal_USD', 'campaign_location_US', 'campaign_timeline','prep_timeline'], dtype=float)
     normalized_input = pd.concat([input_variables,category_input],axis=1)
     
     result = model.predict(normalized_input)

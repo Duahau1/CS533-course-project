@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1764034627.04485 "main.aux" "main.bbl" "main" 1764034628.13947 0
+["bibtex main"] 1764034627.04485 "main.aux" "main.bbl" "main" 1764038252.14404 0
   "./acl_natbib.bst" 1764033560.74327 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./custom.bib" 1764033560.74793 5509 7d96d2c66c8bea1e6c75180967fb342c ""
-  "main.aux" 1764034627.85953 788 dd723ac2cc6633fe1b8d0dad09f7a4ae "pdflatex"
+  "main.aux" 1764038251.92419 788 dd723ac2cc6633fe1b8d0dad09f7a4ae "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764034627.13696 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764034628.1396 0
-  "/Users/duahau1/CS533/CProject/main.tex" 1764034625.86758 11067 b7288b2df303a41a339da8aaff7d91cd ""
+["pdflatex"] 1764038251.3677 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764038252.14417 0
+  "/Users/duahau1/CS533/CProject/main.tex" 1764038251.25129 11843 17818415b36d04eb5da9e1cf4ed38083 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -164,10 +164,10 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "acl.sty" 1764033560.74583 11221 0cc89fa8e5891a5b6a48f16ecda8a85c ""
-  "main.aux" 1764034627.85953 788 dd723ac2cc6633fe1b8d0dad09f7a4ae "pdflatex"
+  "main.aux" 1764038251.92419 788 dd723ac2cc6633fe1b8d0dad09f7a4ae "pdflatex"
   "main.bbl" 1764034627.13428 772 b2b48ca737a4bf3c2765f2a9989971fd "bibtex main"
-  "main.out" 1764034627.62265 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1764034625.86758 11067 b7288b2df303a41a339da8aaff7d91cd ""
+  "main.out" 1764038251.70504 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1764038251.25129 11843 17818415b36d04eb5da9e1cf4ed38083 ""
   (generated)
   "main.aux"
   "main.log"
