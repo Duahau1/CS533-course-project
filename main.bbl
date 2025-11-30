@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{2}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong(2014)}]{armstrong2014bonferroni}
@@ -10,10 +10,5 @@ Robert~A Armstrong. 2014.
 D.~C. Howell. 2010.
 \newblock \emph{Statistical Methods for Psychology}, 7th edition.
 \newblock Wadsworth, Cengage Learning.
-
-\bibitem[{Thevapalan(2024)}]{datacamp_anova_tutorial}
-Arunn Thevapalan. 2024.
-\newblock \href {https://www.datacamp.com/tutorial/anova-test} {Anova test: Definition, types, examples, and assumptions}.
-\newblock Accessed: 2025-10-27.
 
 \end{thebibliography}

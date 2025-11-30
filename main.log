@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 NOV 2025 08:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  29 NOV 2025 21:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,6 +562,21 @@ Underfull \hbox (badness 1668) in paragraph at lines 79--82
 \T1/ptm/m/n/10.95 (+20) to con-vert them to date-time ob-ject. In or-
  []
 
+<figures/success-ratio.pdf, id=5, 406.42903pt x 313.48003pt>
+File: figures/success-ratio.pdf Graphic file (type pdf)
+<use figures/success-ratio.pdf>
+Package pdftex.def Info: figures/success-ratio.pdf  used on input line 91.
+(pdftex.def)             Requested size: 197.17618pt x 152.08067pt.
+<figures/goal_in_usd.pdf, id=7, 421.1917pt x 332.8352pt>
+File: figures/goal_in_usd.pdf Graphic file (type pdf)
+<use figures/goal_in_usd.pdf>
+Package pdftex.def Info: figures/goal_in_usd.pdf  used on input line 101.
+(pdftex.def)             Requested size: 197.17618pt x 155.81296pt.
+<figures/num_campaigns.pdf, id=11, 431.96191pt x 321.62674pt>
+File: figures/num_campaigns.pdf Graphic file (type pdf)
+<use figures/num_campaigns.pdf>
+Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 111.
+(pdftex.def)             Requested size: 197.17618pt x 146.81152pt.
 
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}
@@ -569,54 +584,87 @@ Underfull \hbox (badness 1668) in paragraph at lines 79--82
 
 
 ]
-\c@stepsi=\count322
-\enitdp@steps=\count323
-\c@boxlblcounter=\count324
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 106.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 106.
 
-Overfull \hbox (33.82326pt too wide) detected at line 140
-[]
+<figures/success_campaigns_by_country.pdf, id=25, 411.85555pt x 321.62674pt>
+File: figures/success_campaigns_by_country.pdf Graphic file (type pdf)
+<use figures/success_campaigns_by_country.pdf>
+Package pdftex.def Info: figures/success_campaigns_by_country.pdf  used on input line 118.
+(pdftex.def)             Requested size: 197.17618pt x 153.98155pt.
+<figures/unsuccess_campaigns_by_country.pdf, id=26, 411.85555pt x 321.62674pt>
+File: figures/unsuccess_campaigns_by_country.pdf Graphic file (type pdf)
+<use figures/unsuccess_campaigns_by_country.pdf>
+Package pdftex.def Info: figures/unsuccess_campaigns_by_country.pdf  used on input line 125.
+(pdftex.def)             Requested size: 197.17618pt x 153.98155pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/campaign_timeline_histogram.pdf, id=28, 633.59526pt x 393.98067pt>
+File: figures/campaign_timeline_histogram.pdf Graphic file (type pdf)
+<use figures/campaign_timeline_histogram.pdf>
+Package pdftex.def Info: figures/campaign_timeline_histogram.pdf  used on input line 136.
+(pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
+<figures/prep_timeline_histogram.pdf, id=30, 633.59526pt x 393.98067pt>
+File: figures/prep_timeline_histogram.pdf Graphic file (type pdf)
+<use figures/prep_timeline_histogram.pdf>
+Package pdftex.def Info: figures/prep_timeline_histogram.pdf  used on input line 144.
+(pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[2 <./figures/success-ratio.pdf> <./figures/goal_in_usd.pdf> <./figures/num_campaigns.pdf> <./figures/success_campaigns_by_country.pdf>]
+<figures/success_campaigns_by_category.pdf, id=219, 949.54437pt x 367.00215pt>
+File: figures/success_campaigns_by_category.pdf Graphic file (type pdf)
+<use figures/success_campaigns_by_category.pdf>
+Package pdftex.def Info: figures/success_campaigns_by_category.pdf  used on input line 153.
+(pdftex.def)             Requested size: 197.17618pt x 76.20473pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.7567pt too wide) in paragraph at lines 162--162
+[]\T1/ptm/b/n/10.95 (-20) Model
  []
 
 
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\T1/ptm/b/n/9 (+20) Model
+Overfull \hbox (6.72293pt too wide) in paragraph at lines 164--164
+[]\T1/ptm/m/n/10.95 (-20) Logistic| 
  []
 
 
-Overfull \hbox (2.90193pt too wide) in paragraph at lines 150--150
-[]\T1/ptm/m/n/9 (-20) Decision
+Overfull \hbox (9.69543pt too wide) in paragraph at lines 165--165
+[]\T1/ptm/m/n/10.95 (-20) Decision
  []
 
 
-Overfull \hbox (1.43802pt too wide) in paragraph at lines 151--151
-[]\T1/ptm/m/n/9 (-20) Random
+Overfull \hbox (7.91432pt too wide) in paragraph at lines 166--166
+[]\T1/ptm/m/n/10.95 (-20) Random
  []
 
 
-Overfull \hbox (51.94286pt too wide) in paragraph at lines 145--154
+Overfull \hbox (40.93947pt too wide) in paragraph at lines 160--169
  [][] 
  []
 
 
-
-[2]
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 184.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-(./main.bbl)
+Underfull \vbox (badness 1803) has occurred while \output is active []
 
-[3] (./main.aux)
+
+
+
+
+[3 <./figures/unsuccess_campaigns_by_country.pdf> <./figures/campaign_timeline_histogram.pdf> <./figures/prep_timeline_histogram.pdf> <./figures/success_campaigns_by_category.pdf>] (./main.bbl)
+
+
+
+[4
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -625,18 +673,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15532 strings out of 473190
- 248458 string characters out of 5715801
- 698624 words of memory out of 5000000
- 38315 multiletter control sequences out of 15000+600000
- 614907 words of font info for 235 fonts, out of 8000000 for 9000
+ 15464 strings out of 473190
+ 249284 string characters out of 5715801
+ 697032 words of memory out of 5000000
+ 38291 multiletter control sequences out of 15000+600000
+ 597800 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,1031b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 133711 bytes).
+ 90i,10n,93p,1031b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 290258 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 56833 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 39465 words of extra memory for PDF output out of 42996 (max. 10000000)
 
