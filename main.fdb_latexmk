@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1764523907.48353 "main.aux" "main.bbl" "main" 1764524280.90595 0
+["bibtex main"] 1764523907.48353 "main.aux" "main.bbl" "main" 1764525871.73846 0
   "./acl_natbib.bst" 1764033560.74327 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./custom.bib" 1764033560.74793 5509 7d96d2c66c8bea1e6c75180967fb342c ""
-  "main.aux" 1764524280.63142 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
+  "main.aux" 1764525871.50614 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764524279.76466 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764524280.9061 0
-  "/Users/duahau1/CS533/CProject/main.tex" 1764524279.5015 13740 7f225b5528ce99f7b7e3c0251e672b4e ""
+["pdflatex"] 1764525870.8817 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764525871.73861 0
+  "/Users/duahau1/CS533/CProject/main.tex" 1764525870.71779 14431 3fda64c4dd6adb0c2f0d7a16a91a3336 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -147,10 +147,10 @@
   "figures/success-ratio.pdf" 1764520039.56005 11403 735d3e1967c1596004a6b66fd6ca6ecf ""
   "figures/success_campaigns_by_category.pdf" 1764520041.04289 15365 0186ee24bfa677290fc93b685ff17cd8 ""
   "figures/success_campaigns_by_country.pdf" 1764520040.34205 18412 fc9a5e4949252571b5602fda163bffa0 ""
-  "main.aux" 1764524280.63142 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
+  "main.aux" 1764525871.50614 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
   "main.bbl" 1764523907.61268 772 b2b48ca737a4bf3c2765f2a9989971fd "bibtex main"
-  "main.out" 1764524280.33508 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1764524279.5015 13740 7f225b5528ce99f7b7e3c0251e672b4e ""
+  "main.out" 1764525871.2646 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1764525870.71779 14431 3fda64c4dd6adb0c2f0d7a16a91a3336 ""
   (generated)
   "main.aux"
   "main.log"

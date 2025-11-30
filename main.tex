@@ -201,15 +201,21 @@ After param tuning, the best parameter that we got is criterion: entrophy and n\
 Commonly used All of the steps used in this paper used the guidance from ~\cite{datacamp_anova_tutorial} post-hoc tests include Tukey’s Honestly Significant Difference (HSD) ~\cite{howell2010statistical} and the Bonferroni Correction ~\cite{datacamp_anova_tutorial}.
 Commonly used post-hoc tests include Tukey’s Honestly Significant Difference (HSD) ~\cite{armstrong2014bonferroni} and the Bonferroni Correction ~\cite{datacamp_anova_tutorial}.
 
+\subsection{Application}
+After selecting the model that we want, we will save it and then created simple web application using Flask to predict whether or not a campaign will be successful or not.
+The website will consist a simple form that takes user inputs (features) and then evaluate the result with the Random Forest model.
+
 
 \section{Conclusion}
 
-In this paper, we explored the fundamental concepts and applications of the Analysis of Variance (ANOVA) test especially one-way ANOVA. 
-ANOVA is a powerful statistical tool used to determine whether there are significant differences between the means of multiple groups.
-We discussed the core concepts, including getting all the assumptions required for valid results, and interpreted the final result( including whether or not the null hypothesis is accepted).
-Additionally, we emphasized the importance of post-hoc tests, such as Tukey’s HSD and the Bonferroni Correction, in identifying specific group differences when the ANOVA results are significant.
-Overall, ANOVA remains an essential technique in experimental design and data analysis, providing researchers with a robust method for comparing group means and uncovering insights in diverse fields such as education, agriculture, and healthcare. 
-By understanding its principles and limitations, practitioners can effectively apply ANOVA to real-world problems and make data-driven decisions.
+In this study, we analyzed Kickstarter campaign data to identify patterns and factors influencing the success of crowdfunding projects. By leveraging data preprocessing techniques, we extracted key features such as financial goals, campaign timelines, and geographical locations to better understand their impact on project outcomes. 
+
+We employed three machine learning models—Logistic Regression, Decision Tree, and Random Forest—to evaluate their performance in predicting campaign success. Among these, Random Forest emerged as the best-performing model, demonstrating superior accuracy and ROC scores. Further hyperparameter tuning using GridSearchCV allowed us to optimize the Random Forest model, reducing false positives and improving precision.
+
+Our findings revealed several insights, including the correlation between high financial goals and campaign failure, the importance of campaign duration, and the dominance of certain categories and geographical regions in successful projects. These insights can guide future creators in designing effective crowdfunding strategies.
+
+Overall, this project highlights the value of data-driven approaches in understanding and improving crowdfunding outcomes. By applying machine learning techniques and statistical analysis, we demonstrated how predictive modeling can provide actionable insights for creators and stakeholders in the crowdfunding ecosystem.
+
 
 % Entries for the entire Anthology, followed by custom entries
 \bibliography{custom}
