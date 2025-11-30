@@ -102,7 +102,7 @@ Projects with extremely large goals are overwhelmingly found in the failed group
   \caption{Goal in USD}
 \label{fig:goal_usd} 
 \end{figure}
-Next, we take a look at the relationship between the campaign's geographical location and the success rate of it using Figure~\ref{fig:countries}, Figure~\ref{fig:countries_success}, and Figure~\ref{fig:countries_unsuccess}.
+Next, we take a look at the relationship between the campaign's geographical location and the success rate of it using Figure~\ref{fig:countries}, and Figure~\ref{fig:countries_success}.
 By observation, the US accounts for the majority of launched campaigns on KickStarted, more than 60\% with over 66\% of those are successful projects.
 The second country that accounts for the most projects launched is Great Britain, even though they are the second one but they only accounts for around 10\% with around 70\% of those are successful projects.
 The gap between the number of launched products between US and Great Britain is significantly large.
@@ -120,12 +120,7 @@ The gap between the number of launched products between US and Great Britain is 
 \label{fig:countries_success} 
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.9\linewidth]{figures/unsuccess_campaigns_by_country.pdf} 
-  \caption{Unsuccessful rate by country}
-\label{fig:countries_unsuccess} 
-\end{figure}
+
 Next, we will observe the relationship between the campaign's duration and the rate of success of those projects in Figure~\ref{fig:cam_duration}.
 The majority of campaigns fall within the first three duration bins (0-60 days), with very few campaigns lasting longer than 60 days.
 The 20-40 day bin is overwhelmingly the most common campaign timeline, accounting for over 100,000 projects. 
@@ -155,6 +150,13 @@ The chart demonstrates a clear concentration of successful campaigns in the Arts
 \label{fig:success_category} 
 \end{figure}
 
+\section{Experiments}
+In this section, we will be using the preprocessed data and then we will train them using 3 different model namely Logistic Regression, Decision Tree, and Random Forest to select the best model that yields that best performance.
+All three models are typically evaluated using the same common classification performance metrics, which are designed to compare their predictions against the true labels.
+We will initially train the models using their default parameters to evaluate their performance, and then proceed with hyperparameter tuning on the best-performing model.
+The table~\ref{tab:training_summary} summarized all the training metrics after model training process.
+The table shows that Logistic Regression and Random Forest have only slight differences across all evaluated metrics. 
+However, Random Forest performs slightly better in both Accuracy and ROC.
 \begin{table}[h]
 \centering
 \begin{tabular}{p{1cm}ccccc}
@@ -167,17 +169,37 @@ The chart demonstrates a clear concentration of successful campaigns in the Arts
 \bottomrule
 \end{tabular}
 \caption{Summary of chosen model's performance before tuning}
-\label{tab:anova_summary}
+\label{tab:training_summary}
+\end{table}
+In order to see it better, we also have a ROC curve of all the three models in Figure~\ref{fig:roc_curve}. 
+From the graph we can see that Random Forest model has the highest AUC at $0.73$4, indicating it is the overall best classifier among the three, as it has the best ability to discriminate between the positive and negative classes
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\linewidth]{figures/roc_curves.pdf} 
+  \caption{ROC Curves}
+\label{fig:roc_curve} 
+\end{figure}
+
+\subsection{Hyperparam tuning}
+We opted to fine-tune the Random Forest parameters using GridSearchCV due to its superior overall performance.
+Our goal was to reduce false positives and enhance precision.
+After param tuning, the best parameter that we got is criterion: entrophy and n\_estimator: 500 which yields the following improvement in table~\ref{tab:after_train_summary} 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+{\bf accuracy} & {\bf precision} & {\bf recall} & {\bf f1} & {\bf roc} \\
+\midrule
+ 0.7007 & 0.7379  &  0.7968 & 0.76626 & 0.735\\
+\bottomrule
+\end{tabular}
+\caption{Summary of chosen model's performance of Random Forest after tuning}
+\label{tab:after_train_summary}
 \end{table}
 
-
-\subsection{Post-hoc test}
-Even though, ANOVA tells you whether or not there is a disparity between group means, but it does not indicate which specific groups differ significantly.
-This is where post-hoc tests come in—they conduct pairwise comparisons to pinpoint the exact groups with significant differences. 
-These tests are crucial when dealing with more than two groups and the ANOVA result is significant.
-For instance, after performing a one-way ANOVA on students' score across three class type (Hybrid, In-person, and Remote), the test identifies a somewhat difference but no other information about group differs significantly.
-With a post-hoc test, we can determine which class types differ in their impact on exam scores.
-Commonly used post-hoc tests include Tukey’s Honestly Significant Difference (HSD)~\cite{howell2010statistical} and the Bonferroni Correction~\cite{armstrong2014bonferroni}.
+Commonly used All of the steps used in this paper used the guidance from ~\cite{datacamp_anova_tutorial} post-hoc tests include Tukey’s Honestly Significant Difference (HSD) ~\cite{howell2010statistical} and the Bonferroni Correction ~\cite{datacamp_anova_tutorial}.
+Commonly used post-hoc tests include Tukey’s Honestly Significant Difference (HSD) ~\cite{armstrong2014bonferroni} and the Bonferroni Correction ~\cite{datacamp_anova_tutorial}.
 
 
 \section{Conclusion}

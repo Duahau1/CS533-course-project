@@ -268,11 +268,6 @@ INPUT ./figures/success_campaigns_by_country.pdf
 INPUT ./figures/success_campaigns_by_country.pdf
 INPUT ./figures/success_campaigns_by_country.pdf
 INPUT ./figures/success_campaigns_by_country.pdf
-INPUT ./figures/unsuccess_campaigns_by_country.pdf
-INPUT ./figures/unsuccess_campaigns_by_country.pdf
-INPUT ./figures/unsuccess_campaigns_by_country.pdf
-INPUT ./figures/unsuccess_campaigns_by_country.pdf
-INPUT ./figures/unsuccess_campaigns_by_country.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -296,6 +291,11 @@ INPUT ./figures/success_campaigns_by_category.pdf
 INPUT ./figures/success_campaigns_by_category.pdf
 INPUT ./figures/success_campaigns_by_category.pdf
 INPUT ./figures/success_campaigns_by_category.pdf
+INPUT ./figures/roc_curves.pdf
+INPUT ./figures/roc_curves.pdf
+INPUT ./figures/roc_curves.pdf
+INPUT ./figures/roc_curves.pdf
+INPUT ./figures/roc_curves.pdf
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl

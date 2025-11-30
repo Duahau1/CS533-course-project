@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  29 NOV 2025 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 NOV 2025 10:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,7 +572,7 @@ File: figures/goal_in_usd.pdf Graphic file (type pdf)
 <use figures/goal_in_usd.pdf>
 Package pdftex.def Info: figures/goal_in_usd.pdf  used on input line 101.
 (pdftex.def)             Requested size: 197.17618pt x 155.81296pt.
-<figures/num_campaigns.pdf, id=11, 431.96191pt x 321.62674pt>
+<figures/num_campaigns.pdf, id=10, 431.96191pt x 321.62674pt>
 File: figures/num_campaigns.pdf Graphic file (type pdf)
 <use figures/num_campaigns.pdf>
 Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 111.
@@ -585,28 +585,20 @@ Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 111.
 
 ]
 
-<figures/success_campaigns_by_country.pdf, id=25, 411.85555pt x 321.62674pt>
+<figures/success_campaigns_by_country.pdf, id=24, 411.85555pt x 321.62674pt>
 File: figures/success_campaigns_by_country.pdf Graphic file (type pdf)
 <use figures/success_campaigns_by_country.pdf>
 Package pdftex.def Info: figures/success_campaigns_by_country.pdf  used on input line 118.
 (pdftex.def)             Requested size: 197.17618pt x 153.98155pt.
-<figures/unsuccess_campaigns_by_country.pdf, id=26, 411.85555pt x 321.62674pt>
-File: figures/unsuccess_campaigns_by_country.pdf Graphic file (type pdf)
-<use figures/unsuccess_campaigns_by_country.pdf>
-Package pdftex.def Info: figures/unsuccess_campaigns_by_country.pdf  used on input line 125.
-(pdftex.def)             Requested size: 197.17618pt x 153.98155pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/campaign_timeline_histogram.pdf, id=28, 633.59526pt x 393.98067pt>
+<figures/campaign_timeline_histogram.pdf, id=26, 633.59526pt x 393.98067pt>
 File: figures/campaign_timeline_histogram.pdf Graphic file (type pdf)
 <use figures/campaign_timeline_histogram.pdf>
-Package pdftex.def Info: figures/campaign_timeline_histogram.pdf  used on input line 136.
+Package pdftex.def Info: figures/campaign_timeline_histogram.pdf  used on input line 131.
 (pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
-<figures/prep_timeline_histogram.pdf, id=30, 633.59526pt x 393.98067pt>
+<figures/prep_timeline_histogram.pdf, id=28, 633.59526pt x 393.98067pt>
 File: figures/prep_timeline_histogram.pdf Graphic file (type pdf)
 <use figures/prep_timeline_histogram.pdf>
-Package pdftex.def Info: figures/prep_timeline_histogram.pdf  used on input line 144.
+Package pdftex.def Info: figures/prep_timeline_histogram.pdf  used on input line 139.
 (pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -614,51 +606,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [2 <./figures/success-ratio.pdf> <./figures/goal_in_usd.pdf> <./figures/num_campaigns.pdf> <./figures/success_campaigns_by_country.pdf>]
-<figures/success_campaigns_by_category.pdf, id=219, 949.54437pt x 367.00215pt>
+<figures/success_campaigns_by_category.pdf, id=217, 949.54437pt x 367.00215pt>
 File: figures/success_campaigns_by_category.pdf Graphic file (type pdf)
 <use figures/success_campaigns_by_category.pdf>
-Package pdftex.def Info: figures/success_campaigns_by_category.pdf  used on input line 153.
+Package pdftex.def Info: figures/success_campaigns_by_category.pdf  used on input line 148.
 (pdftex.def)             Requested size: 197.17618pt x 76.20473pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (0.7567pt too wide) in paragraph at lines 162--162
+Overfull \hbox (0.7567pt too wide) in paragraph at lines 164--164
 []\T1/ptm/b/n/10.95 (-20) Model
  []
 
 
-Overfull \hbox (6.72293pt too wide) in paragraph at lines 164--164
+Overfull \hbox (6.72293pt too wide) in paragraph at lines 166--166
 []\T1/ptm/m/n/10.95 (-20) Logistic| 
  []
 
 
-Overfull \hbox (9.69543pt too wide) in paragraph at lines 165--165
+Overfull \hbox (9.69543pt too wide) in paragraph at lines 167--167
 []\T1/ptm/m/n/10.95 (-20) Decision
  []
 
 
-Overfull \hbox (7.91432pt too wide) in paragraph at lines 166--166
+Overfull \hbox (7.91432pt too wide) in paragraph at lines 168--168
 []\T1/ptm/m/n/10.95 (-20) Random
  []
 
 
-Overfull \hbox (40.93947pt too wide) in paragraph at lines 160--169
+Overfull \hbox (40.93947pt too wide) in paragraph at lines 162--171
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1803) has occurred while \output is active []
-
-
+<figures/roc_curves.pdf, id=220, 417.61143pt x 327.20317pt>
+File: figures/roc_curves.pdf Graphic file (type pdf)
+<use figures/roc_curves.pdf>
+Package pdftex.def Info: figures/roc_curves.pdf  used on input line 178.
+(pdftex.def)             Requested size: 197.17618pt x 154.48947pt.
 
 
 
-[3 <./figures/unsuccess_campaigns_by_country.pdf> <./figures/campaign_timeline_histogram.pdf> <./figures/prep_timeline_histogram.pdf> <./figures/success_campaigns_by_category.pdf>] (./main.bbl)
+
+[3 <./figures/campaign_timeline_histogram.pdf> <./figures/prep_timeline_histogram.pdf> <./figures/success_campaigns_by_category.pdf> <./figures/roc_curves.pdf>]
+Overfull \hbox (15.59804pt too wide) in paragraph at lines 190--197
+ [][] 
+ []
+
+(./main.bbl)
 
 
 
@@ -673,18 +665,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15464 strings out of 473190
- 249284 string characters out of 5715801
- 697032 words of memory out of 5000000
- 38291 multiletter control sequences out of 15000+600000
- 597800 words of font info for 192 fonts, out of 8000000 for 9000
+ 15480 strings out of 473190
+ 249386 string characters out of 5715801
+ 697140 words of memory out of 5000000
+ 38295 multiletter control sequences out of 15000+600000
+ 598190 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,10n,93p,1031b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,93p,1031b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 290258 bytes).
+Output written on main.pdf (4 pages, 315003 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  39465 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1764477777.95107 "main.aux" "main.bbl" "main" 1764477779.15577 0
+["bibtex main"] 1764523907.48353 "main.aux" "main.bbl" "main" 1764524280.90595 0
   "./acl_natbib.bst" 1764033560.74327 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./custom.bib" 1764033560.74793 5509 7d96d2c66c8bea1e6c75180967fb342c ""
-  "main.aux" 1764477778.86301 1356 d1303c9dc356d6f05fe458076c8d9bec "pdflatex"
+  "main.aux" 1764524280.63142 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764477778.07615 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764477779.15591 0
-  "/Users/duahau1/CS533/CProject/main.tex" 1764477776.66362 12338 2c4d289bec7e54b64aaa535429cceb3b ""
+["pdflatex"] 1764524279.76466 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764524280.9061 0
+  "/Users/duahau1/CS533/CProject/main.tex" 1764524279.5015 13740 7f225b5528ce99f7b7e3c0251e672b4e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -139,18 +139,18 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "acl.sty" 1764033560.74583 11221 0cc89fa8e5891a5b6a48f16ecda8a85c ""
-  "figures/campaign_timeline_histogram.pdf" 1764473368.95399 14443 fc0465cf37ce29461447e18ddd3bd227 ""
-  "figures/goal_in_usd.pdf" 1764468046.26332 111470 404691ffc2a201391ed1f4e09d52416f ""
-  "figures/num_campaigns.pdf" 1764472126.80174 17581 473b64cb172922f41e5b5e3f363ace00 ""
-  "figures/prep_timeline_histogram.pdf" 1764473369.10979 14511 41e5e457e6ee559f9a24eb79cdfe5dc0 ""
-  "figures/success-ratio.pdf" 1764468045.7431 11403 a616ff96250361879619b703b9bc6bd6 ""
-  "figures/success_campaigns_by_category.pdf" 1764468047.06626 15365 a7002c8a36842b36bcd352621f7d7ede ""
-  "figures/success_campaigns_by_country.pdf" 1764472127.20134 18412 cc39963690eba0480197bb5e8d444f17 ""
-  "figures/unsuccess_campaigns_by_country.pdf" 1764472127.39521 17360 002494cc3f8dd0f75943fef0ec2df694 ""
-  "main.aux" 1764477778.86301 1356 d1303c9dc356d6f05fe458076c8d9bec "pdflatex"
-  "main.bbl" 1764477778.07374 538 46af5541973f68a95c9ddee58f2cd4e7 "bibtex main"
-  "main.out" 1764477778.57634 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1764477776.66362 12338 2c4d289bec7e54b64aaa535429cceb3b ""
+  "figures/campaign_timeline_histogram.pdf" 1764520040.7697 14443 7b8f524a8675d34445f3c14827ea0228 ""
+  "figures/goal_in_usd.pdf" 1764520039.89251 111470 c7e74d5c0bb53fb0e04eec3f547aa434 ""
+  "figures/num_campaigns.pdf" 1764520040.02408 17581 60aa793eac1df40370bf053e1715583e ""
+  "figures/prep_timeline_histogram.pdf" 1764520040.91505 14823 87adda69c6c3d02d129c757ccce9d7cb ""
+  "figures/roc_curves.pdf" 1764520051.47761 38995 685140d17b75278a2278e6fde5d0c003 ""
+  "figures/success-ratio.pdf" 1764520039.56005 11403 735d3e1967c1596004a6b66fd6ca6ecf ""
+  "figures/success_campaigns_by_category.pdf" 1764520041.04289 15365 0186ee24bfa677290fc93b685ff17cd8 ""
+  "figures/success_campaigns_by_country.pdf" 1764520040.34205 18412 fc9a5e4949252571b5602fda163bffa0 ""
+  "main.aux" 1764524280.63142 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
+  "main.bbl" 1764523907.61268 772 b2b48ca737a4bf3c2765f2a9989971fd "bibtex main"
+  "main.out" 1764524280.33508 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1764524279.5015 13740 7f225b5528ce99f7b7e3c0251e672b4e ""
   (generated)
   "main.aux"
   "main.log"
