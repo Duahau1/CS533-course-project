@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1764523907.48353 "main.aux" "main.bbl" "main" 1764525871.73846 0
+["bibtex main"] 1764632826.04037 "main.aux" "main.bbl" "main" 1764633305.86519 0
   "./acl_natbib.bst" 1764033560.74327 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
-  "./custom.bib" 1764033560.74793 5509 7d96d2c66c8bea1e6c75180967fb342c ""
-  "main.aux" 1764525871.50614 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
+  "./custom.bib" 1764631875.32714 503 f53865c947991c4839e8b63064b0f11a ""
+  "main.aux" 1764633305.64236 1520 b5657e33edb98e9464f1db1c0b336e0f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764525870.8817 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764525871.73861 0
-  "/Users/duahau1/CS533/CProject/main.tex" 1764525870.71779 14431 3fda64c4dd6adb0c2f0d7a16a91a3336 ""
+["pdflatex"] 1764633304.99477 "/Users/duahau1/CS533/CProject/main.tex" "main.pdf" "main" 1764633305.86533 0
+  "/Users/duahau1/CS533/CProject/main.tex" 1764633304.88673 14811 705df58df0d891b7899d492e16a2da53 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -142,15 +142,16 @@
   "figures/campaign_timeline_histogram.pdf" 1764520040.7697 14443 7b8f524a8675d34445f3c14827ea0228 ""
   "figures/goal_in_usd.pdf" 1764520039.89251 111470 c7e74d5c0bb53fb0e04eec3f547aa434 ""
   "figures/num_campaigns.pdf" 1764520040.02408 17581 60aa793eac1df40370bf053e1715583e ""
+  "figures/prediction-app.png" 1764631985.79848 44282 8de13f08a3aa57a2a00b7393fcd1e068 ""
   "figures/prep_timeline_histogram.pdf" 1764520040.91505 14823 87adda69c6c3d02d129c757ccce9d7cb ""
   "figures/roc_curves.pdf" 1764520051.47761 38995 685140d17b75278a2278e6fde5d0c003 ""
   "figures/success-ratio.pdf" 1764520039.56005 11403 735d3e1967c1596004a6b66fd6ca6ecf ""
   "figures/success_campaigns_by_category.pdf" 1764520041.04289 15365 0186ee24bfa677290fc93b685ff17cd8 ""
   "figures/success_campaigns_by_country.pdf" 1764520040.34205 18412 fc9a5e4949252571b5602fda163bffa0 ""
-  "main.aux" 1764525871.50614 1631 a1f9fb01d97ee9366be22bd9882b4848 "pdflatex"
-  "main.bbl" 1764523907.61268 772 b2b48ca737a4bf3c2765f2a9989971fd "bibtex main"
-  "main.out" 1764525871.2646 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1764525870.71779 14431 3fda64c4dd6adb0c2f0d7a16a91a3336 ""
+  "main.aux" 1764633305.64236 1520 b5657e33edb98e9464f1db1c0b336e0f "pdflatex"
+  "main.bbl" 1764632826.13002 565 eb558307c9cc9737f84235e89f787762 "bibtex main"
+  "main.out" 1764633305.3694 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1764633304.88673 14811 705df58df0d891b7899d492e16a2da53 ""
   (generated)
   "main.aux"
   "main.log"

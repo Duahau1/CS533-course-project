@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 NOV 2025 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 DEC 2025 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,65 +518,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-\T1/ptm/m/n/10.95 (+20) The datasets used will be gen-er-ated by
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+\T1/ptm/m/n/10.95 (+20) The datasets used was gen-er-ated by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 \T1/ptm/m/n/10.95 (+20) Kickstarter does not pro-vide any pub-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 \T1/ptm/m/n/10.95 (+20) lic API to re-trieve data other then
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 \T1/ptm/m/it/10.95 (-3) https://status.kickstarter.com/api/v2/summary.json
  []
 
 
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 73.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 74.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 2970) in paragraph at lines 79--82
-\T1/ptm/m/n/10.95 (+20) We will need to do some data pre-pro-cess-
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 79--82
-\T1/ptm/m/n/10.95 (+20) ing where we dropped un-used columns and
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 79--82
-\T1/ptm/m/n/10.95 (+20) Other than that for any times-tamp we want
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 79--82
-\T1/ptm/m/n/10.95 (+20) to con-vert them to date-time ob-ject. In or-
- []
-
-<figures/success-ratio.pdf, id=5, 406.42903pt x 313.48003pt>
+<figures/success-ratio.pdf, id=7, 406.42903pt x 313.48003pt>
 File: figures/success-ratio.pdf Graphic file (type pdf)
 <use figures/success-ratio.pdf>
-Package pdftex.def Info: figures/success-ratio.pdf  used on input line 91.
+Package pdftex.def Info: figures/success-ratio.pdf  used on input line 94.
 (pdftex.def)             Requested size: 197.17618pt x 152.08067pt.
-<figures/goal_in_usd.pdf, id=7, 421.1917pt x 332.8352pt>
-File: figures/goal_in_usd.pdf Graphic file (type pdf)
-<use figures/goal_in_usd.pdf>
-Package pdftex.def Info: figures/goal_in_usd.pdf  used on input line 101.
-(pdftex.def)             Requested size: 197.17618pt x 155.81296pt.
-<figures/num_campaigns.pdf, id=10, 431.96191pt x 321.62674pt>
-File: figures/num_campaigns.pdf Graphic file (type pdf)
-<use figures/num_campaigns.pdf>
-Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 111.
-(pdftex.def)             Requested size: 197.17618pt x 146.81152pt.
 
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}
@@ -584,82 +555,103 @@ Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 111.
 
 
 ]
+<figures/goal_in_usd.pdf, id=23, 421.1917pt x 332.8352pt>
+File: figures/goal_in_usd.pdf Graphic file (type pdf)
+<use figures/goal_in_usd.pdf>
+Package pdftex.def Info: figures/goal_in_usd.pdf  used on input line 106.
+(pdftex.def)             Requested size: 197.17618pt x 155.81296pt.
+<figures/num_campaigns.pdf, id=26, 431.96191pt x 321.62674pt>
+File: figures/num_campaigns.pdf Graphic file (type pdf)
+<use figures/num_campaigns.pdf>
+Package pdftex.def Info: figures/num_campaigns.pdf  used on input line 118.
+(pdftex.def)             Requested size: 197.17618pt x 146.81152pt.
 
-<figures/success_campaigns_by_country.pdf, id=24, 411.85555pt x 321.62674pt>
+
+<figures/success_campaigns_by_country.pdf, id=27, 411.85555pt x 321.62674pt>
 File: figures/success_campaigns_by_country.pdf Graphic file (type pdf)
 <use figures/success_campaigns_by_country.pdf>
-Package pdftex.def Info: figures/success_campaigns_by_country.pdf  used on input line 118.
+Package pdftex.def Info: figures/success_campaigns_by_country.pdf  used on input line 125.
 (pdftex.def)             Requested size: 197.17618pt x 153.98155pt.
-<figures/campaign_timeline_histogram.pdf, id=26, 633.59526pt x 393.98067pt>
+<figures/campaign_timeline_histogram.pdf, id=29, 633.59526pt x 393.98067pt>
 File: figures/campaign_timeline_histogram.pdf Graphic file (type pdf)
 <use figures/campaign_timeline_histogram.pdf>
-Package pdftex.def Info: figures/campaign_timeline_histogram.pdf  used on input line 131.
+Package pdftex.def Info: figures/campaign_timeline_histogram.pdf  used on input line 137.
 (pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
-<figures/prep_timeline_histogram.pdf, id=28, 633.59526pt x 393.98067pt>
+
+
+[2 <./figures/success-ratio.pdf> <./figures/goal_in_usd.pdf> <./figures/num_campaigns.pdf> <./figures/success_campaigns_by_country.pdf>]
+<figures/prep_timeline_histogram.pdf, id=214, 633.59526pt x 393.98067pt>
 File: figures/prep_timeline_histogram.pdf Graphic file (type pdf)
 <use figures/prep_timeline_histogram.pdf>
-Package pdftex.def Info: figures/prep_timeline_histogram.pdf  used on input line 139.
+Package pdftex.def Info: figures/prep_timeline_histogram.pdf  used on input line 146.
 (pdftex.def)             Requested size: 197.17618pt x 122.60765pt.
+<figures/success_campaigns_by_category.pdf, id=216, 949.54437pt x 367.00215pt>
+File: figures/success_campaigns_by_category.pdf Graphic file (type pdf)
+<use figures/success_campaigns_by_category.pdf>
+Package pdftex.def Info: figures/success_campaigns_by_category.pdf  used on input line 156.
+(pdftex.def)             Requested size: 197.17618pt x 76.20473pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-
-[2 <./figures/success-ratio.pdf> <./figures/goal_in_usd.pdf> <./figures/num_campaigns.pdf> <./figures/success_campaigns_by_country.pdf>]
-<figures/success_campaigns_by_category.pdf, id=217, 949.54437pt x 367.00215pt>
-File: figures/success_campaigns_by_category.pdf Graphic file (type pdf)
-<use figures/success_campaigns_by_category.pdf>
-Package pdftex.def Info: figures/success_campaigns_by_category.pdf  used on input line 148.
-(pdftex.def)             Requested size: 197.17618pt x 76.20473pt.
-
-Overfull \hbox (0.7567pt too wide) in paragraph at lines 164--164
+Overfull \hbox (0.7567pt too wide) in paragraph at lines 172--172
 []\T1/ptm/b/n/10.95 (-20) Model
  []
 
 
-Overfull \hbox (6.72293pt too wide) in paragraph at lines 166--166
+Overfull \hbox (6.72293pt too wide) in paragraph at lines 174--174
 []\T1/ptm/m/n/10.95 (-20) Logistic| 
  []
 
 
-Overfull \hbox (9.69543pt too wide) in paragraph at lines 167--167
+Overfull \hbox (9.69543pt too wide) in paragraph at lines 175--175
 []\T1/ptm/m/n/10.95 (-20) Decision
  []
 
 
-Overfull \hbox (7.91432pt too wide) in paragraph at lines 168--168
+Overfull \hbox (7.91432pt too wide) in paragraph at lines 176--176
 []\T1/ptm/m/n/10.95 (-20) Random
  []
 
 
-Overfull \hbox (40.93947pt too wide) in paragraph at lines 162--171
+Overfull \hbox (40.93947pt too wide) in paragraph at lines 170--179
  [][] 
  []
 
-<figures/roc_curves.pdf, id=220, 417.61143pt x 327.20317pt>
+
+
+<figures/roc_curves.pdf, id=221, 417.61143pt x 327.20317pt>
 File: figures/roc_curves.pdf Graphic file (type pdf)
 <use figures/roc_curves.pdf>
-Package pdftex.def Info: figures/roc_curves.pdf  used on input line 178.
+Package pdftex.def Info: figures/roc_curves.pdf  used on input line 187.
 (pdftex.def)             Requested size: 197.17618pt x 154.48947pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-
-[3 <./figures/campaign_timeline_histogram.pdf> <./figures/prep_timeline_histogram.pdf> <./figures/success_campaigns_by_category.pdf> <./figures/roc_curves.pdf>]
-Overfull \hbox (15.59804pt too wide) in paragraph at lines 190--197
+Overfull \hbox (15.59804pt too wide) in paragraph at lines 200--207
  [][] 
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 213--214
-\T1/ptm/m/n/10.95 (+20) els^^VLogistic Re-gres-sion, De-ci-sion Tree, and
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/prediction-app.png, id=223, 631.35875pt x 564.1075pt>
+File: figures/prediction-app.png Graphic file (type png)
+<use figures/prediction-app.png>
+Package pdftex.def Info: figures/prediction-app.png  used on input line 217.
+(pdftex.def)             Requested size: 197.17618pt x 176.17125pt.
+
+
+[3 <./figures/campaign_timeline_histogram.pdf> <./figures/prep_timeline_histogram.pdf> <./figures/success_campaigns_by_category.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 (./main.bbl)
 
-[4] (./main.aux)
+[4 <./figures/roc_curves.pdf> <./figures/prediction-app.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -668,18 +660,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15487 strings out of 473190
- 249451 string characters out of 5715801
- 697140 words of memory out of 5000000
- 38295 multiletter control sequences out of 15000+600000
- 598450 words of font info for 202 fonts, out of 8000000 for 9000
+ 15482 strings out of 473190
+ 249442 string characters out of 5715801
+ 694161 words of memory out of 5000000
+ 38298 multiletter control sequences out of 15000+600000
+ 595047 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,11n,93p,1031b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 315691 bytes).
+Output written on main.pdf (4 pages, 341856 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 453 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
- 39465 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 35374 words of extra memory for PDF output out of 35830 (max. 10000000)
 
